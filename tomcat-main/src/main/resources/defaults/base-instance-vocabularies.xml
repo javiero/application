@@ -9,29 +9,31 @@
                         <web-url>languages</web-url>
                         <title-ref>languages</title-ref>
                         <title>Languages</title>
+                        <options><instances>
+					
                         <options>
-                    		<option id="ara">Arabic</option>
-						<option id="hye" desc="An optional description for any vocabulary term can be entered here">Armenian</option>
-							<option id="zho">Chinese</option>
-							<option id="eng">English</option>
-							<option id="fra">French</option>
-							<option id="deu">German</option>
-							<option id="grc">Ancient Greek</option>
-							<option id="heb">Hebrew</option>
-						<option id="ind">Indonesian</option>
-							<option id="ita">Italian</option>
-							<option id="jpn">Japanese</option>
-							<option id="kor">Korean</option>
+                    		<option id="ara">Arabico</option>
+						<option id="hye">Armeniano</option>
+							<option id="zho">Chino</option>
+							<option id="eng">Ingles</option>
+							<option id="fra">Frances</option>
+							<option id="deu">Alemán</option>
+							<option id="grc">Griego antiguo</option>
+							<option id="heb">Hebreo</option>
+						<option id="ind">Indonesio</option>
+							<option id="ita">Italiano</option>
+							<option id="jpn">Japones</option>
+							<option id="kor">Koreano</option>
 							<option id="lat">Latin</option>
-						<option id="mal">Malaysian</option>
-							<option id="enm">Middle English</option>
-							<option id="ang">Old English</option>
-							<option id="por">Portuguese</option>
-						<option id="ron">Romanian</option>
-							<option id="rus">Russian</option>
-							<option id="spa">Spanish</option>
+						<option id="mal">Malayo</option>
+							<option id="enm">Inglés Medio</option>
+							<option id="ang">Inglés antiguo</option>
+							<option id="por">Portugues</option>
+						<option id="ron">Rumano</option>
+							<option id="rus">Ruso</option>
+							<option id="spa">Español</option>
 							<option id="swa">Swahili</option>
-						<option id="swe">Swedish</option>
+						<option id="swe">Sueco</option>
 						<option id="tgl">Tagalog</option>
 						<option id="yor">Yoruba</option>
                         </options>
@@ -41,144 +43,144 @@
                         <title-ref>loanoutstatus</title-ref>
                         <title>loanedObjectStatus</title>
                         <options>
-                            <option>Requested</option>
-                            <option>Authorized</option>
-                            <option>Agreed</option>
-                            <option>Conservation</option>
-                            <option>Sent</option>
-                            <option>Photography requested</option>
-                            <option>Refused</option>
-                            <option>Renewed</option>
-                            <option>Returned</option>
+                            <option>Solicitado</option>
+                            <option>Autorizado</option>
+                            <option>Acordado</option>
+                            <option>Conservación</option>
+                            <option>Enviado</option>
+                            <option>Fotografía requerida</option>
+                            <option>Rechazado</option>
+                            <option>Renovado</option>
+                            <option>Devuelto</option>
                         </options>
                     </instance>
                     <instance id="vocab-currency">
                         <web-url>currency</web-url>
                         <title-ref>currency</title-ref>
-                        <title>Standard Currency</title>
+                        <title>Divisa</title>
                         <options>
-                            <option id="USD">US Dollar</option>
-                            <option id="CAD">Canadian Dollar</option>
+                            <option id="USD">Dólar Estadounidense</option>
+                            <option id="CAD">Dólar Canadiense</option>
                             <option id="EUR">Euro</option>
-                            <option id="GBP">Pound Sterling</option>
-                            <option id="DKK">Danish Krone</option>
-                            <option id="SEK">Swedish Krona</option>
-                            <option id="CHF">Swiss Franc</option>
+                            <option id="GBP">Libra Esterlina</option>
+                            <option id="DKK">Corona Danesa</option>
+                            <option id="SEK">Corona Sueca</option>
+                            <option id="CHF">Franco Suizo</option>
                         </options>
                     </instance>
                     <instance id="vocab-collectionmethod">
                         <web-url>collectionmethod</web-url>
                         <title-ref>collectionmethod</title-ref>
-                        <title>Collection Method</title>
+                        <title>Método colección</title>
                         <options>
-                            <option id="borehole">borehole</option>
-                            <option id="commissioned">commissioned</option>
-                            <option id="exchanged">exchanged</option>
-                            <option id="founddead">found dead</option>
-                            <option id="metaldetector">metal detector</option>
-                            <option id="netted">netted</option>
-                            <option id="photographed">photographed</option>
-                            <option id="purchased">purchased</option>
-                            <option id="salvaged">salvaged</option>
-                            <option id="shot">shot</option>
-                            <option id="trapped">trapped</option>
+                            <option id="borehole">Pozo</option>
+                            <option id="commissioned">Comisionado</option>
+                            <option id="exchanged">intercambiado</option>
+                            <option id="founddead">Encontrado muerto</option>
+                            <option id="metaldetector">Detector de metal</option>
+                            <option id="netted">Pesca con red</option>
+                            <option id="photographed">Fotografiado</option>
+                            <option id="purchased">Comprado</option>
+                            <option id="salvaged">Salvataje</option>
+                            <option id="shot">Disparado</option>
+                            <option id="trapped">Atrapado</option>
                         </options>
                     </instance>
                     <instance id="vocab-conditionfitness">
                         <web-url>conditionfitness</web-url>
                         <title-ref>conditionfitness</title-ref>
-                        <title>Condition Fitness</title>
+                        <title>Condición de estado</title>
                         <options>
-                            <option id="dangerous">Dangerous</option>
-                            <option id="suitable">Suitable</option>
-                            <option id="reasonable">Reasonable</option>
-                            <option id="unsuitable">Unsuitable</option>
+                            <option id="dangerous">Peligroso</option>
+                            <option id="suitable">Adecuado</option>
+                            <option id="reasonable">Razonable</option>
+                            <option id="unsuitable">Inadecuado</option>
                         </options>
                     </instance>
                     <instance id="vocab-conditioncheckmethod">
                         <web-url>conditioncheckmethod</web-url>
                         <title-ref>conditioncheckmethod</title-ref>
-                        <title>Condition Check Method</title>
+                        <title>Método de revisión de estado</title>
                         <options>
-                            <option id="observed">Observed</option>
-                            <option id="xrayed">X-Rayed</option>
+                            <option id="observed">Observado</option>
+                            <option id="xrayed">Rayos X</option>
                         </options>
                     </instance>
                     <instance id="vocab-entrymethod">
                         <web-url>entrymethod</web-url>
                         <title-ref>entrymethod</title-ref>
-                        <title>Entry Method</title>
+                        <title>Medio de ingreso</title>
                         <options>
-                            <option id="inperson">In person</option>
-                            <option id="post">Post</option>
-                            <option id="foundondoorstep">Found on doorstep</option>
+                            <option id="inperson">En persona</option>
+                            <option id="post">Correo</option>
+                            <option id="foundondoorstep">Encontrado en puerta</option>
                         </options>
                     </instance>
                     <instance id="vocab-conditioncheckreason">
                         <web-url>conditioncheckreason</web-url>
                         <title-ref>conditioncheckreason</title-ref>
-                        <title>Condition Check Reason</title>
+                        <title>Razón de revisión de estado</title>
                         <options>
-                            <option id="consideration">Consideration</option>
-                            <option id="damagedintransit">Damaged in transit</option>
-                            <option id="enquiry">Enquiry</option>
-                            <option id="loanin">Loan in</option>
-                            <option id="conservation">Conservation</option>
+                            <option id="consideration">Consideración</option>
+                            <option id="damagedintransit">Dañado en tránsito</option>
+                            <option id="enquiry">Consulta</option>
+                            <option id="loanin">Recepción de préstamo</option>
+                            <option id="conservation">Tratamiento conservación</option>
                         </options>
                     </instance>
                     <instance id="vocab-locationtype">
                         <web-url>locationtype</web-url>
                         <title-ref>locationtype</title-ref>
-                        <title>Location Type</title>
+                        <title>Tipo locación</title>
                         <options>
-                            <option id="building">Building</option>
-                            <option id="room">Room</option>
-                            <option id="unit">Unit</option>
-                            <option id="shelf">Shelf</option>
-                            <option id="drawer">Drawer</option>
-                            <option id="tray">Tray</option>
+                            <option id="building">Edificio</option>
+                            <option id="room">Pieza</option>
+                            <option id="unit">Unidad</option>
+                            <option id="shelf">Repisa</option>
+                            <option id="drawer">Cajón</option>
+                            <option id="tray">Bandeja</option>
                         </options>
                     </instance>
                     <instance id="vocab-dateera">
                         <web-url>dateera</web-url>
                         <title-ref>dateera</title-ref>
-                        <title>Date Era</title>
+                        <title>Era fecha</title>
                         <options>
-                            <option id="ce">CE</option>
-                            <option id="bce">BCE</option>
+                            <option id="ce">EC</option>
+                            <option id="bce">AEC</option>
                         </options>
                     </instance>
                     <instance id="vocab-datequalifier">
                         <web-url>datequalifier</web-url>
                         <title-ref>datequalifier</title-ref>
-                        <title>Date Qualifier</title>
+                        <title>Cualificador fecha</title>
                         <options>
-                            <option id="days">Day(s)</option>
-                            <option id="month">Month(s)</option>
-                            <option id="years">Year(s)</option>
+                            <option id="days">Día(s)</option>
+                            <option id="month">Mes(es)</option>
+                            <option id="years">Año(s)</option>
                         </options>
                     </instance>
                     <instance id="vocab-agequalifier">
                         <web-url>agequalifier</web-url>
                         <title-ref>agequalifier</title-ref>
-                        <title>Age Qualifier</title>
+                        <title>Cualificador Edad</title>
                         <options>
-                            <option id="approximately">approximately</option>
-                            <option id="olderthan">older than</option>
-                            <option id="youngerthan">younger than</option>
+                            <option id="approximately">Aproximado</option>
+                            <option id="olderthan">Mayor que</option>
+                            <option id="youngerthan">Más joven que</option>
                         </options>
                     </instance>
                     <instance id="vocab-dateCertainty">
                         <web-url>datecertainty</web-url>
                         <title-ref>datecertainty</title-ref>
-                        <title>Date Certainty</title>
+                        <title>Certidumbre fecha</title>
                         <options>
-                            <option id="after">After</option>
-                            <option id="approximate">Approximate</option>
-                            <option id="before">Before</option>
+                            <option id="after">Después</option>
+                            <option id="approximate">Aproximado</option>
+                            <option id="before">Antes</option>
                             <option id="circa">Circa</option>
-                            <option id="probably">Probably</option> 
-                            <option id="possibly">Possibly</option>
+                            <option id="probably">Probablemente</option> 
+                            <option id="possibly">Posiblemente</option>
                         </options>
                     </instance>
                     <instance id="vocab-persontermtype">
@@ -186,47 +188,47 @@
                         <title-ref>persontermtype</title-ref>
                         <title>personTermType</title>
                         <options>
-                                <option id="artist">Artist</option>
-                                <option id="donor">Donor</option>
-                                <option id="employee">Employee</option>
+                                <option id="artist">Artista</option>
+                                <option id="donor">Donante</option>
+                                <option id="employee">Empleado</option>
                         </options>
                     </instance>   
                     <instance id="vocab-worktype">
                         <web-url>worktype</web-url>
                         <title-ref>worktype</title-ref>
-                        <title>Work Type</title>
+                        <title>Tipo obra</title>
                         <options>
-                            <option id="built">Built</option>
-                            <option id="movable">Movable</option>
-                            <option id="movingimage">Moving Image</option>
-                            <option id="dance">Dance</option>
-                            <option id="theater">Theater</option>
-                            <option id="performance">Performance</option>
-                            <option id="music">Music</option>
+                            <option id="built">Construida</option>
+                            <option id="movable">Mueble</option>
+                            <option id="movingimage">Imágen en movimiento</option>
+                            <option id="dance">Baile</option>
+                            <option id="theater">Teatro</option>
+                            <option id="performance">Actuación</option>
+                            <option id="music">Música</option>
                         </options>
                     </instance>
                     <instance id="vocab-workcreatortype">
                         <web-url>workcreatortype</web-url>
                         <title-ref>workcreatortype</title-ref>
-                        <title>Work Creator Type</title>
+                        <title>Tipo creador obra</title>
                         <options>
-                            <option id="architect">Architect</option>
-                            <option id="artist">Artist</option>
-                            <option id="choreographer">Choreographer</option>
-                            <option id="composer">Composer</option>
+                            <option id="architect">Arquitecto</option>
+                            <option id="artist">Artista</option>
+                            <option id="choreographer">Coreografo</option>
+                            <option id="composer">Compositor</option>
                             <option id="director">Director</option>
-                            <option id="painter">Painter</option>
-                            <option id="sculptor">Sculptor</option>
-                            <option id="writer">Writer</option>
+                            <option id="painter">Pintor</option>
+                            <option id="sculptor">Esculptor</option>
+                            <option id="writer">Escritor</option>
                         </options>
                     </instance>
                     <instance id="vocab-workpublishertype">
                         <web-url>workpublishertype</web-url>
                         <title-ref>workpublishertype</title-ref>
-                        <title>Work Publisher Type</title>
+                        <title>Tipo Editorial obra</title>
                         <options>
-                            <option id="distributor">Distributor</option>
-                            <option id="publisher">Publisher</option>
+                            <option id="distributor">Distribuidor</option>
+                            <option id="publisher">Editorial</option>
                         </options>
                     </instance>
 
@@ -235,31 +237,31 @@
                         <title-ref>citationtermtype</title-ref>
                         <title>citationTermType</title>
                         <options>
-                                <option id="monograph">Monograph</option>
-								<option id="dictionary">Dictionary</option>
-								<option id="encyclopedia">Encyclopedia</option>
+                                <option id="monograph">Monografía</option>
+								<option id="dictionary">Diccionario</option>
+								<option id="encyclopedia">Enciclopedia</option>
 								<option id="gazetteer">Gazetteer</option>
-								<option id="criticism">Criticism</option>
+								<option id="criticism">Crítica</option>
 								<option id="atlas">Atlas</option>
-								<option id="guide">Guide book</option>
-								<option id="biography">Biography</option>
-								<option id="history">History</option>
+								<option id="guide">Guía</option>
+								<option id="biography">Biografía</option>
+								<option id="history">Historia</option>
 								<option id="Festschrift">Festschrift</option>
-								<option id="catalog">Exhibition catalog</option>
-								<option id="journal">Journal article</option>
-								<option id="newspaper">Newspaper article</option>
-								<option id="dissertation">Dissertation</option>
-								<option id="birthcert">Birth certificate</option>
-								<option id="obituary">Obituary</option>
-								<option id="brochure">Brochure</option>
-								<option id="exhibitionchecklist">Exhibition checklist</option>
-								<option id="exhibitionreview">Exhibition review</option>
-								<option id="contract">Contract</option>
-								<option id="conditionreport">Condition report</option>
-								<option id="letter">Letter</option>
-								<option id="diary">Diary</option>
-								<option id="inventory">Inventory</option>
-								<option id="verbalopinion">Verbal opinion</option> 
+								<option id="catalog">Catálogo de exhibición</option>
+								<option id="journal">Artículo de revista</option>
+								<option id="newspaper">Artículo de diario</option>
+								<option id="dissertation">Dissertación</option>
+								<option id="birthcert">Certificado de nacimiento</option>
+								<option id="obituary">Obiturario</option>
+								<option id="brochure">Folleto</option>
+								<option id="exhibitionchecklist">Checklist exhibición</option>
+								<option id="exhibitionreview">Reseña exhibición</option>
+								<option id="contract">Contrato</option>
+								<option id="conditionreport">Informe estado</option>
+								<option id="letter">Carta</option>
+								<option id="diary">Diario</option>
+								<option id="inventory">Inventario</option>
+								<option id="verbalopinion">Opinión verbal</option> 
                         </options>
                     </instance>
                     <instance id="vocab-agentinfo">
@@ -267,7 +269,7 @@
                         <title-ref>agentinfotype</title-ref>
                         <title>agentinfoType</title>
                         <options>
-                                <option id="writer">Writer</option>  
+                                <option id="writer">Escritor</option>  
                                 <option id="editor">Editor</option>                                
                         </options>
                     </instance>
@@ -286,10 +288,10 @@
                         <title-ref>relationtypetype</title-ref>
                         <title>relationtypeType</title>
                         <options>
-                                <option id="monography">Monography (published in)</option> 
-				                <option id="magazine">Magazine (published in)</option> 
-				                <option id="exhibition">Exhibition</option> 
-                                <option id="facsimile">Facsimile of</option>                                
+                                <option id="monography">Monografía (publicada en)</option> 
+				                <option id="magazine">Revista (Publicada en)</option> 
+				                <option id="exhibition">Exhibición</option> 
+                                <option id="facsimile">Facsimilar de </option>                                
                         </options>
                     </instance>                                       
 </instances>
